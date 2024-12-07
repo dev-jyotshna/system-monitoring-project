@@ -111,13 +111,20 @@ python monitoring.py
 
 ### **Email Alerts**
 To receive email alerts for high CPU, memory, or disk usage:
-1. Configure your email credentials in the `monitoring.py` script:
-   ```python
-   SENDER_EMAIL = "your-email@gmail.com"
-   SENDER_PASSWORD = "your-email-password"
-   RECIPIENT_EMAIL = "recipient-email@gmail.com"
+1. Make `.env` file and Configure your email credentials in the `.env` file:
+   ```text
+   SENDER_EMAIL=your-email@gmail.com
+   SENDER_PASSWORD=your-email-password
+   RECIPIENT_EMAIL=recipient-email@gmail.com
    ```
-2. Adjust the thresholds for alerts:
+
+2. Sensitive Information: SENDER_EMAIL, SENDER_PASSWORD, and RECIPIENT_EMAIL are now loaded from a .env file using the dotenv package.
+   - Install the python-dotenv package:
+```bash
+pip install python-dotenv
+```
+
+3. Adjust the thresholds for alerts:
    ```python
    CPU_THRESHOLD = 80
    MEMORY_THRESHOLD = 80
