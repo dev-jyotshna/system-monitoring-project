@@ -98,7 +98,7 @@ python monitoring.py
    - Select **Prometheus** and enter the URL: `http://localhost:9090`.
 5. Import the provided Grafana dashboard:
    - Go to **Dashboards > Import**.
-   - Upload the `grafana_dashboard.json` file from this project.
+   - Upload the `dashboard-grafana.json` file from this project.
 
 ---
 
