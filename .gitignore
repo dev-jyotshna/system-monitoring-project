@@ -1,0 +1,11 @@
+.env
+# Ignore Prometheus and Grafana binaries
+prometheus*
+grafana*
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+system_logs.txt
