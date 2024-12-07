@@ -4,6 +4,8 @@
 
 This project is a Python-based system monitoring tool that tracks CPU, memory, and disk usage using the **psutil** library. The data is visualized in **Grafana**, which is powered by metrics collected using **Prometheus**. It is a lightweight and user-friendly monitoring solution that runs entirely on your local machine.
 
+OverView [Click here](https://docs.google.com/presentation/d/13kf9kBuV06y3CAOekVWuekw7ZfWDhWL18TagEM8mRv8/edit?usp=sharing)
+
 ---
 
 ## **Features**
