@@ -9,3 +9,4 @@ grafana*
 *.tmp
 *.bak
 system_logs.txt
+Command order.txt
